@@ -1,0 +1,25 @@
+{
+  "invoices": [
+    {
+      "customer_email": "customer@example.com",
+      "items": [
+        {
+          "name": "Laptop",
+          "price": 1200,
+          "quantity": 1
+        },
+        {
+          "name": "Mouse",
+          "price": 50,
+          "quantity": 2
+        },
+        {
+          "name": "Keyboard",
+          "price": 100,
+          "quantity": 1
+        }
+      ],
+      "total": 1400
+    }
+  ]
+}
