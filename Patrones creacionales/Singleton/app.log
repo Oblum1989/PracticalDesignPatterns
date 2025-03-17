@@ -3,3 +3,10 @@
 [2025-03-06 22:56:54] Factura guardada: 1400
 [2025-03-06 22:56:54] Factura generada exitosamente.
 [2025-03-06 22:56:54] Proceso de facturación finalizado.
+[2025-03-16 21:31:25] Iniciando sistema de facturación...
+[2025-03-16 21:31:25] Generando factura para customer@example.com
+[2025-03-16 21:32:32] Iniciando sistema de facturación...
+[2025-03-16 21:32:32] Generando factura para customer@example.com
+[2025-03-16 21:32:32] Factura guardada: 1400
+[2025-03-16 21:32:32] Factura generada exitosamente.
+[2025-03-16 21:32:32] Proceso de facturación finalizado.

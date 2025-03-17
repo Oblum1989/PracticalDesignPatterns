@@ -6,7 +6,7 @@ require 'singleton'
 class AppLogger
   include Singleton
 
-  LOG_FILE = './Singleton/app.log'
+  LOG_FILE = './app.log'
 
   def initialize
     @file = File.open(LOG_FILE, 'a')

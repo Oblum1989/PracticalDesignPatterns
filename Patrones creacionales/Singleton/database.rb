@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'singleton'
 require 'json'
 require_relative 'app_logger'
@@ -7,7 +8,7 @@ require_relative 'app_logger'
 class Database
   include Singleton
 
-  FILE_PATH = './Singleton/database.json'
+  FILE_PATH = './database.json'
 
   def initialize
     @logger = AppLogger.instance
@@ -26,5 +27,11 @@ class Database
     return { invoices: [] } unless File.exist?(FILE_PATH)
 
     JSON.parse(File.read(FILE_PATH), symbolize_names: true)
+  end
+end
+
+class SMSNotification
+  def send_notification(message)
+    puts "📱 Enviando SMS: #{message}"
   end
 end

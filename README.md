@@ -1,6 +1,6 @@
 ## Principios de Diseño de Software
 
-### 1. Principios SOLID
+### Principios SOLID
 (Son cinco principios fundamentales para diseño de software en POO)
 
 - **S**: Single Responsibility Principle (SRP) → Una clase debe tener una única razón para cambiar.
@@ -9,7 +9,7 @@
 - **I**: Interface Segregation Principle (ISP) → No forzar a las clases a depender de interfaces que no usan.
 - **D**: Dependency Inversion Principle (DIP) → Depender de abstracciones en lugar de implementaciones concretas.
 
-### 2. Principios GRASP (General Responsibility Assignment Software Patterns)
+### Principios GRASP
 (Patrones para asignar responsabilidades en diseño orientado a objetos)
 
 - **Creator** → Define qué clase debe crear objetos.
@@ -22,7 +22,7 @@
 - **Indirection** → Introduce un intermediario para desacoplar dependencias.
 - **Protected Variations** → Protege el código contra cambios futuros con abstracciones.
 
-### 3. Otros Principios Claves
+### Otros Principios Claves
 
 - **DRY** (Don't Repeat Yourself) → Evitar duplicación de código.
 - **KISS** (Keep It Simple, Stupid) → Diseñar sistemas simples y fáciles de entender.
@@ -32,7 +32,8 @@
 
 ## Patrones de Diseño de Software
 
-### 1. Patrones Creacionales (Facilitan la creación de objetos)
+### Patrones Creacionales
+(Facilitan la creación de objetos)
 
 - **Singleton** → Garantiza que solo exista una instancia de una clase.
 - **Factory Method** → Permite crear objetos sin especificar su tipo exacto.
@@ -40,7 +41,8 @@
 - **Builder** → Separa la construcción de un objeto complejo de su representación.
 - **Prototype** → Crea nuevos objetos copiando una instancia existente.
 
-### 2. Patrones Estructurales (Definen cómo se organizan las clases y objetos)
+### Patrones Estructurales
+(Definen cómo se organizan las clases y objetos)
 
 - **Adapter** → Permite que clases con interfaces incompatibles trabajen juntas.
 - **Bridge** → Separa una abstracción de su implementación para permitir variaciones independientes.
@@ -50,7 +52,8 @@
 - **Flyweight** → Reduce el uso de memoria compartiendo objetos en lugar de duplicarlos.
 - **Proxy** → Actúa como un intermediario para controlar el acceso a un objeto.
 
-### 3. Patrones de Comportamiento (Definen cómo interactúan los objetos)
+### Patrones de Comportamiento
+(Definen cómo interactúan los objetos)
 
 - **Chain of Responsibility** → Pasa una solicitud a través de una cadena de manejadores.
 - **Command** → Encapsula una acción como un objeto.
